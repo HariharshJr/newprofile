@@ -1,0 +1,28 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    background: rgb(39, 181, 238);
+}
+a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+}
+table{
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+tr{
+    display: table-row;
+}
+td{
+    display: table-cell;
+    border: 5px solid rgb(255, 255, 255);
+    padding: 5px;
+}
+h1{
+    text-align: center;
+}
